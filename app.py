@@ -1,3 +1,13 @@
+import os
+import urllib.request
+
+MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task"
+MODEL_PATH = "face_landmarker.task"
+
+# Descargar automáticamente si no existe
+if not os.path.exists(MODEL_PATH):
+    urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
+    
 import streamlit as st
 import cv2
 import math
