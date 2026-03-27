@@ -34,4 +34,4 @@ Ayudar a las ópticas a mejorar la experiencia del cliente, agilizar la asesorí
 
 - Integración con catálogos reales de gafas
 - Sistema de usuarios para ópticas
-- Implementación en tiendas físicas
+- Implementación en tiendas físicas.
